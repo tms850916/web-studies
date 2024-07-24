@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube.com Clones</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="left-section">
+
+                <img 
+                class="hamburger-menu"
+                src="icons/hamburger-menu.svg">
+
+                <img 
+                class="youtube-logo"
+                src="icons/youtube-logo.svg">
+
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <!--Put position absolute inside position relative-->
+                <button class="voice-button">
+                    <img class="voice-icon" src="icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+
+                <div class="upload-icon-container">
+                    <img 
+                    class="upload-icon" 
+                    src="icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+
+                <div class="youtube-app-container">
+                    <img 
+                    class="apps-icon" 
+                    src="icons/youtube-apps.svg">
+                    <div class="tooltip">YouTube apps</div>
+                </div>
+
+                <div class="notifications-icon-container">
+                    <img class="notifications-icon" src="icons/notifications.svg">
+                    <div class="tooltip">notifications</div>
+                    <div class="notifications-count">
+                        8
+                    </div>
+                </div>
+
+                <img 
+                class="current-user-picture" 
+                src="Channel.pc/my.jpg">
+            </div>
+            
+        </header>
+        
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/originals.svg">
+                <div>Original</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/youtube-music.svg">
+                <div>YouTube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library.svg">
+                <div>library</div>
+            </div>
+        </nav>
+
+        <main>
+            <section class="video-grid">
+                
+                <div class="video-preview">
+                    <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                        <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/thumbnail-1 (1).webp">
+                        <div class="video-time">
+                            14&#58;20
+                        </div>
+                    </div> 
+                    </a>
+                    <a href="https://www.youtube.com/c/mkbhd">
+                        <div class="video-info-grid">
+                            <div class="channel-pictures">
+                                <img class="profile-picture" src="Channel.pc/channel-1.jpeg">
+                            </div>
+                            <div class="video-info">
+                             <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                                 <p class="video-title">
+                                    Talking Tech and AI with Google CEO Sundar Pichai!
+                                </p>
+                             </a>
+                            <a href="https://www.youtube.com/c/mkbhd">
+                                <p class="video-author">
+                                    Marques Brownlee
+                                </p>
+                            </a>
+                            <p class="video-stats">
+                                4&#46;3M views &#183; 3 years ago
+                            </p> 
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                
+                <div class="video-preview">
+                    <a href="https://www.youtube.com/watch?v=3GzRDW3hZ1k">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/hq720.webp">
+                            <div class="video-time">
+                                3&#58;02
+                            </div>
+                        </div> 
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCGmO0S4S-AunjRdmxA6TQYg">
+                        <div class="video-info-grid">
+                            <div class="channel-pictures">
+                                <img class="profile-picture" src="Channel.pc/unnamed.jpg">
+                            </div>
+                            
+                            <div class="video-info">
+                                <a href="https://www.youtube.com/watch?v=3GzRDW3hZ1k">
+                                    <p class="video-title">
+                                        DECO*27 - ハオ feat. 初音ミク
+                                    </p>
+                                </a>
+                                <a href="https://www.youtube.com/channel/UCGmO0S4S-AunjRdmxA6TQYg">
+                                    <p class="video-author">
+                                        DECO*27
+                                    </p>
+                                </a>
+                                <p class="video-stats">
+                                    2&#46;2M views &#183; 3 Weeks ago
+                                </p> 
+                            </div>
+                        </div>
+                    </a> 
+                </div>
+                
+                <div class="video-preview">
+                    <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=877s">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/html:css.webp">
+                            <div class="video-time">
+                                6&#58;31&#58;24
+                            </div>
+                        </div> 
+                    </a>
+                    <div class="video-info-grid">
+        
+                        <div class="channel-pictures">
+                            <a href="https://www.youtube.com/@SuperSimpleDev">
+                                <img class="profile-picture" src="Channel.pc/supersimple.jpeg">
+                            </a>
+                        </div>
+                        
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=877s">
+                                <p class="video-title">
+                                    HTML & CSS Full Course - Beginner to Pro
+                                </p>
+                            </a>
+                            <a href="https://www.youtube.com/@SuperSimpleDev">
+                                <p class="video-author">
+                                    SuperSimpleDev
+                                </p>
+                            </a>
+                            <p class="video-stats">
+                                10M views &#183; 2 years ago
+                            </p> 
+                        </div>
+                    </div>
+                </div>
+         
+                <div class="video-preview">
+                    <a href="https://www.youtube.com/watch?v=GkgtQOlJp0Y">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/ZZZ.webp">
+                            <div class="video-time">
+                                2&#58;44
+                            </div>
+                        </div> 
+                    </a>
+                    <div class="video-info-grid">
+                        <div class="channel-pictures">
+                            <a href="https://www.youtube.com/@ZZZ_Official">
+                                <img class="profile-picture" src="Channel.pc/channels4_profile.jpg">
+                            </a> 
+                        </div>
+                        
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=GkgtQOlJp0Y">
+                                <p class="video-title">
+                                    ZENLESS &ndash; Tiësto x Zenless Zone Zero
+                                </p>
+                            </a>
+                            <a href="https://www.youtube.com/@ZZZ_Official">
+                                <p class="video-author">
+                                    Zenless Zone Zero
+                                </p>
+                            </a>
+                            <p class="video-stats">
+                                6&#46;1M views &#183; 3 days ago
+                            </p> 
+                        </div>
+                    </div>
+                </div>  
+                
+                <div class="video-preview">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/Rick.webp">
+                            <div class="video-time">
+                                3&#58;33
+                            </div>
+                        </div> 
+                    </a>
+                    <div class="video-info-grid">
+                        <div class="channel-pictures">
+                            <a href="https://www.youtube.com/channel/UCuAXFkgsw1L7xaCfnd5JJOw">
+                                <img class="profile-picture" src="Channel.pc/rickA.jpeg">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                                <p class="video-title">
+                                    Rick Astley - Never Gonna Give You Up (Official Music Video)
+                                </p> 
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCuAXFkgsw1L7xaCfnd5JJOw">
+                                <p class="video-author">
+                                    Rick Astley
+                                </p>
+                            </a>
+                            <p class="video-stats">
+                                4&#46;12M views &#183; 14 years ago
+                            </p> 
+                        </div>
+                    </div>
+                </div>
+          
+                <div class="video-preview">
+                    <a href="https://www.youtube.com/watch?v=rDTFSD9K9dA">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/akg.webp">
+                            <div class="video-time">
+                                4&#58;46
+                            </div>
+                        </div> 
+                    </a>
+                    <div class="video-info-grid">
+                        <div class="channel-pictures">
+                            <a href="https://www.youtube.com/channel/UC3J-txytRWiRtNXrLS95eEw">
+                                <img class="profile-picture" src="Channel.pc/akg.jpeg">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=rDTFSD9K9dA">
+                                <p class="video-title">
+                                    ASIAN KUNG-FU GENERATION - Rock'n Roll, Morning Light Falls on You
+                                </p>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UC3J-txytRWiRtNXrLS95eEw">
+                                <p class="video-author">
+                                    ASIAN KUNG-FU GENERATION Official YouTube Channel
+                                </p>
+                            </a>
+                            <p class="video-stats">
+                                1&#46;5M views &#183; 8 years ago
+                            </p> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <a href="https://www.youtube.com/watch?v=1ejfAkzjEhk">
+                        <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/trump.webp">
+                        <div class="video-time">
+                            2&#58;10
+                        </div>
+                    </div> 
+                    </a>
+                    <a href="https://www.youtube.com/@FoxNews">
+                        <div class="video-info-grid">
+                            <div class="channel-pictures">
+                                <img class="profile-picture" src="Channel.pc/foxnews.jpg">
+                            </div>
+                            <div class="video-info">
+                             <a href="https://www.youtube.com/watch?v=1ejfAkzjEhk">
+                                 <p class="video-title">
+                                    Shots fired at Trump rally
+                                </p>
+                             </a>
+                            <a href="https://www.youtube.com/@FoxNews">
+                                <p class="video-author">
+                                    Fox News
+                                </p>
+                            </a>
+                            <p class="video-stats">
+                                11&#46;6M views &#183; 9 days ago
+                            </p> 
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                
+                <div class="video-preview">
+                    <a href="https://www.youtube.com/watch?v=dCEMSaho0io">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/hqdefault.webp">
+                            <div class="video-time">
+                                1&#58;00&#58;02
+                            </div>
+                        </div> 
+                    </a>
+                    <a href="https://www.youtube.com/@TWINENGINE/videos">
+                        <div class="video-info-grid">
+                            <div class="channel-pictures">
+                                <img class="profile-picture" src="Channel.pc/twin.jpg">
+                            </div>
+                            
+                            <div class="video-info">
+                                <a href="https://www.youtube.com/watch?v=dCEMSaho0io">
+                                    <p class="video-title">
+                                        テレビアニメ「しかのこのこのここしたんたん」OPテーマ「シカ色デイズ」イントロ耐久1時間
+                                    </p>
+                                </a>
+                                <a href="https://www.youtube.com/@TWINENGINE/videos">
+                                    <p class="video-author">
+                                        TWIN ENGINE
+                                    </p>
+                                </a>
+                                <p class="video-stats">
+                                    7&#46;6M views &#183; 1 months ago
+                                </p> 
+                            </div>
+                        </div>
+                    </a> 
+                </div>
+                
+                <div class="video-preview">
+                    <a href="https://youtu.be/WMdXTiLrT2g?si=Pzn4dLKftbJ2UGqH">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/Alya.webp">
+                            <div class="video-time">
+                                1&#58;31
+                            </div>
+                        </div> 
+                    </a>
+                    <div class="video-info-grid">
+        
+                        <div class="channel-pictures">
+                            <a href="https://www.youtube.com/@roshidere_anime">
+                                <img class="profile-picture" src="Channel.pc/alya.jpg">
+                            </a>
+                        </div>
+                        
+                        <div class="video-info">
+                            <a href="https://youtu.be/WMdXTiLrT2g?si=Pzn4dLKftbJ2UGqH">
+                                <p class="video-title">
+                                    【ロシデレ】ノンクレジットOP｜「1番輝く星」アーリャ（CV：上坂すみれ）
+                                </p>
+                            </a>
+                            <a href="https://www.youtube.com/@roshidere_anime">
+                                <p class="video-author">
+                                    【公式】ロシデレチャンネル
+                                </p>
+                            </a>
+                            <p class="video-stats">
+                                1&#46;3M views &#183; 2 weeks ago
+                            </p> 
+                        </div>
+                    </div>
+                </div>
+         
+                <div class="video-preview">
+                    <a href="https://youtu.be/hMKf5mE3sdo?si=GW14VGsQKhXF10Vw">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/pikachu.webp">
+                            <div class="video-time">
+                                1&#58;44
+                            </div>
+                        </div> 
+                    </a>
+                    <div class="video-info-grid">
+                        <div class="channel-pictures">
+                            <a href="https://www.youtube.com/@The_FirstTake">
+                                <img class="profile-picture" src="Channel.pc/tft.jpg">
+                            </a> 
+                        </div>
+                        
+                        <div class="video-info">
+                            <a href="https://youtu.be/hMKf5mE3sdo?si=GW14VGsQKhXF10Vw">
+                                <p class="video-title">
+                                    サトシ（CV:松本梨香）- めざせポケモンマスター -with my friends- / THE FIRST TAKE
+                                </p>
+                            </a>
+                            <a href="https://www.youtube.com/@The_FirstTake">
+                                <p class="video-author">
+                                    THE FIRST TAKE
+                                </p>
+                            </a>
+                            <p class="video-stats">
+                                28M views &#183; 1 years ago
+                            </p> 
+                        </div>
+                    </div>
+                </div>  
+                
+                <div class="video-preview">
+                    <a href="https://youtu.be/RzXTe-QfWTw?si=fOkGbPl5flP-2MiM">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/yoasobi.webp">
+                            <div class="video-time">
+                                4&#58;53
+                            </div>
+                        </div> 
+                    </a>
+                    <div class="video-info-grid">
+                        <div class="channel-pictures">
+                            <a href="https://www.youtube.com/@Ayase_YOASOBI/featured">
+                                <img class="profile-picture" src="Channel.pc/ayase.jpg">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://youtu.be/RzXTe-QfWTw?si=fOkGbPl5flP-2MiM">
+                                <p class="video-title">
+                                    YOASOBI「アイドル」(Idol) from 『YOASOBI ARENA TOUR 2023 "電光石火"』2023.6.4@さいたまスーパーアリーナ
+                                </p> 
+                            </a>
+                            <a href="https://www.youtube.com/@Ayase_YOASOBI/featured">
+                                <p class="video-author">
+                                    Ayase / YOASOBI
+                                </p>
+                            </a>
+                            <p class="video-stats">
+                                77M views &#183; 1 years ago
+                            </p> 
+                        </div>
+                    </div>
+                </div>
+          
+                <div class="video-preview">
+                    <a href="https://www.youtube.com/watch?v=VNl4J9b_xhE">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/samurai.webp">
+                            <div class="video-time">
+                                1&#58;31
+                            </div>
+                        </div> 
+                    </a>
+                    <div class="video-info-grid">
+                        <div class="channel-pictures">
+                            <a href="https://www.youtube.com/@aniplex">
+                                <img class="profile-picture" src="Channel.pc/aniplex.jpg">
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=VNl4J9b_xhE">
+                                <p class="video-title">
+                                    TVアニメ『逃げ上手の若君』 ノンクレジットエンディングムービー｜ぼっちぼろまる「鎌倉STYLE」
+                                </p>
+                            </a>
+                            <a href="https://www.youtube.com/@aniplex">
+                                <p class="video-author">
+                                    アニプレックス チャンネル
+                                </p>
+                            </a>
+                            <p class="video-stats">
+                                1&#46;4M views &#183; 2 weeks ago
+                            </p> 
+                        </div>
+                    </div>
+                </div>
+            </section>  
+        </main>
+    </body>
+</html>
